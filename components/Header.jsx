@@ -17,6 +17,7 @@ function Header() {
       <div className="itmes-center relative my-auto flex h-10 cursor-pointer">
         <Image
           src="https://links.papareact.com/qd3"
+          alt=""
           layout="fill"
           objectFit="contain"
           objectPosition="left"

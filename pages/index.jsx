@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Header from "../components/Header.jsx";
-// import Banner from "../components/Banner.jsx";
+import Banner from "../components/Banner.jsx";
 // import SmallCard from "../components/SmallCard.jsx";
 
 const Home = () => {
@@ -12,7 +12,7 @@ const Home = () => {
       </Head>
 
       <Header />
-      {/* <Banner /> */}
+      <Banner />
     </div>
   );
 };
