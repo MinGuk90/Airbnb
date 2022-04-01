@@ -4,6 +4,7 @@ import Banner from "../components/Banner.jsx";
 import SmallCard from "../components/SmallCard.jsx";
 import MediumCard from "../components/MediumCard.jsx";
 import LargeCard from "../components/LargeCard.jsx";
+import Footer from "../components/Footer.jsx";
 
 const Home = ({ exploreData, cardsData }) => {
   return (
@@ -47,6 +48,8 @@ const Home = ({ exploreData, cardsData }) => {
           buttonText="Get Inspired"
         />
       </main>
+
+      <Footer />
     </div>
   );
 };
