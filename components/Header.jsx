@@ -6,8 +6,11 @@ import {
   UsersIcon,
   SearchIcon,
 } from "@heroicons/react/solid";
+import { useState } from "react";
 
 function Header() {
+  const [searchInput, setSearchInput] = useState("");
+
   return (
     <header
       className="// sticky top-0 z-50 grid grid-cols-3
@@ -27,6 +30,8 @@ function Header() {
       {/* Middle -Search*/}
       <div className="flex items-center rounded-full py-2 md:border-2 md:shadow-sm">
         <input
+          value={searchInput}
+          onChange={e => setSearchInput(e.target.value)}
           className="flex-grow bg-transparent pl-5 text-sm text-gray-400 outline-none"
           type="text"
           placeholder="Start your search"
