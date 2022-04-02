@@ -14,7 +14,7 @@ function Header() {
       bg-white py-5 px-5 shadow-md  md:px-10"
     >
       {/* left */}
-      <div className="itmes-center relative my-auto flex h-10 cursor-pointer">
+      <div className="itmes-center relative my-auto flex h-10 cursor-pointer hover:animate-bounce">
         <Image
           src="https://links.papareact.com/qd3"
           alt=""
@@ -37,7 +37,7 @@ function Header() {
       {/* Right */}
       <div className="flex items-center justify-end space-x-4 text-gray-500">
         <p className="hidden cursor-pointer md:inline">Become a host</p>
-        <GlobeAltIcon className="h-6" />
+        <GlobeAltIcon className="h-6 hover:animate-spin-slow" />
         <div className="flex items-center space-x-2 rounded-full border-2 p-2">
           <MenuIcon className="h-6 cursor-pointer" />
           <UserCircleIcon className="h-6 cursor-pointer" />
